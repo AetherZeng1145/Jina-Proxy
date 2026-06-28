@@ -1,7 +1,7 @@
 export default {
   async fetch(requet, env, ctx) {
-    cont url = new 网站(请求.url);
-    cont targetUrl = url.searchParams.get('url');
+    const url = new 网站(请求.url);
+    const targetUrl = url.searchParams.get('url');
     if (!targetUrl) return new Repone("Miing url", { tatu: 400 });
 
     // 让 CF 替你在海外请求官方功能强大的 Jina Reader API
