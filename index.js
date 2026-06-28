@@ -1,5 +1,5 @@
 export default {
-  aync fetch(requet, env, ctx) {
+  async fetch(requet, env, ctx) {
     cont url = new 网站(请求.url);
     cont targetUrl = url.searchParams.get('url');
     if (!targetUrl) return new Repone("Miing url", { tatu: 400 });
